@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
 import android.widget.SearchView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -125,7 +126,7 @@ class CityFeedActivity : AppCompatActivity() {
     }
 
     @OptIn(DelicateCoroutinesApi::class)
-    fun Refresh() {
+    fun Refresh(view: View) {
         val dest = "/feed/" + city + "/?token=" + token
 
         GlobalScope.launch {
@@ -136,6 +137,10 @@ class CityFeedActivity : AppCompatActivity() {
                 SetValues(cityFeed)
             }
         }
+    }
+
+    fun Back(view: View){
+        finish()
     }
 
 //    override fun onCreateOptionsMenu(menu: Menu): Boolean {
