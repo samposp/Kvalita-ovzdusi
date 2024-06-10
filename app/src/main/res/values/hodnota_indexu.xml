@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hodnota">
+        <item>Dobrý</item>
+        <item>S mírou</item>
+        <item>Nezdravé pro citlivé skupiny</item>
+        <item>Nezdravý</item>
+        <item>Velmi nezdravý</item>
+        <item>Nebezpečný</item>
+    </string-array>
+    <string-array name="uroven_pece">
+        <item>Kvalita ovzduší je považována za uspokojivou a znečištění ovzduší představuje malé nebo žádné riziko</item>
+        <item>Kvalita ovzduší je přijatelná. Některé znečišťující látky však mohou mít mírně znepokojivý vliv na zdravotní stav malého počtu lidí, kteří jsou velmi citliví na znečištění ovzduší</item>
+        <item>Může způsobit zdravotní problémy u členů citlivých skupin. Většina pravděpodobně nebude ovlivněna</item>
+        <item>Každý může začít pociťovat účinky na zdraví. Členové zranitelných skupin mohou mít vážnější zdravotní následky</item>
+        <item>Nouzová upozornění. Postižena bude celá populace</item>
+        <item>Zdravotní varování. Kdokoli může pociťovat vážnější zdravotní následky</item>
+    </string-array>
+    <array name="barvy">
+        <item>#009966</item>
+        <item>#ffde33</item>
+        <item>#ff9933</item>
+        <item>#cc0033</item>
+        <item>#660099</item>
+        <item>#7e0023</item>
+    </array>
+</resources>
